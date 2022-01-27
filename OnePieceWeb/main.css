@@ -1,0 +1,254 @@
+html, body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.taskbar{
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  padding-left: 60.5vh;
+    padding-right:62.5vh ;
+    display: flex;
+    background-color: black;
+    position: fixed;
+   
+}
+
+.funtion_name:hover{
+    color:azure;
+}
+
+.funtion_name{
+    text-decoration: none;
+    color:#94B5FA;
+    margin: 15px;
+    display: inline-block;
+    font-size:20px
+    
+    
+}
+
+
+
+
+.box{
+    width: 98,5vw;
+    height: 140vh;
+    position: relative;
+    border:black solid 5px;
+     background: linear-gradient(45deg,rgba(26, 26, 28, 0.199),#1a1a1d),   
+    url(https://images5.alphacoders.com/672/672624.jpg)  no-repeat center/ cover ;
+    
+    ;
+}
+
+.box2{
+    border: 5px solid black;
+    width: 98,5vw;
+    height: 100vh;
+    background: linear-gradient(-90deg,rgba(0, 0, 0, 0.199),rgb(59, 53, 53)),  
+    url(https://img.topthuthuat.net/wp-content/uploads/2021/02/03150917/hinh-anh-HD-one-piece-wallpaper-screen.png) no-repeat center / cover ;
+}
+
+.box3{
+    border: 5px solid black;
+    width: 98,5vw;
+    height: 140vh;
+    display: flex;
+    background:linear-gradient(-90deg,rgba(0, 0, 0,0.05),rgb(59, 53, 53)),
+    url(https://images2.alphacoders.com/788/thumb-1920-788704.jpg) no-repeat center / cover ;
+}
+
+.box-child{
+    width:40vw;
+    height:10vh;
+    background-color:rgb(37, 33, 33);
+    position: absolute;
+    right:10vw;
+    bottom:75vh;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    border: 4.5px #94B5FA solid ;
+    padding : 17px 5px 20px 215px;
+    ;
+    box-sizing: border-box;
+
+}
+.box3-content{
+    margin: auto;
+    font-size: 50px;
+}
+.column-layout{
+    
+    display: flex;
+}
+
+.column{
+    padding:0 16px;
+    flex:1;
+}
+
+.column2{
+    flex:2;
+}
+
+.Layout{
+    border: 5px solid black;
+    display: flex;
+    background: #94B5FA no-repeat center/cover;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+/* Thay doi cach hien thi neu man hinh nho hon */
+@media (min-width: 740px){
+    .Layout{
+        flex-direction: row;
+    }
+}
+.lo{
+    color: antiquewhite;
+    flex-basis:100/3%;
+
+}
+.layout1{
+    border:5px solid #65A69A;
+    padding:10px;
+    background: url(https://topnlist.com/wp-content/uploads/2021/09/Roronoa-Zoro.jpg)no-repeat center/cover;
+}
+.layout1:hover{
+    background: linear-gradient(45deg,rgba(0, 0, 0,0.05),rgb(86, 151, 97)),
+    url(https://topnlist.com/wp-content/uploads/2021/09/Roronoa-Zoro.jpg)no-repeat center/cover;;
+}
+.layout2{
+    border:5px solid #F25E3D;
+    padding:10px;
+    background: url(https://img.topthuthuat.net/wp-content/uploads/2021/02/03154224/hinh-nen-one-piece-5H-1920x1200-1.jpg)no-repeat center/cover;
+}
+.layout2:hover{
+    background: linear-gradient(45deg,rgba(0, 0, 0,0.05),rgb(126, 65, 65)),
+    url(https://img.topthuthuat.net/wp-content/uploads/2021/02/03154224/hinh-nen-one-piece-5H-1920x1200-1.jpg)no-repeat center/cover;
+}
+.layout3{
+    border:5px solid #F2B950;
+    padding:10px;
+    background: url(https://w0.peakpx.com/wallpaper/526/673/HD-wallpaper-sanji-vinsmoke-blackleg-boy-one-piece.jpg)no-repeat center/cover;
+    
+}
+.layout3:hover{
+    background:linear-gradient(45deg,rgba(0, 0, 0,0.05),rgb(124, 123, 72)),
+     url(https://w0.peakpx.com/wallpaper/526/673/HD-wallpaper-sanji-vinsmoke-blackleg-boy-one-piece.jpg)no-repeat center/cover;}
+
+.graph{
+    border: 5px solid black;
+    padding:15px;
+    height: 50vh;
+    weight:50vw;
+    justify-content: space-around;
+    background:rgb(59, 53, 53);
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.element{
+    padding:12px;
+width: 60px;
+background-color: #94B5FA;
+height: var(--percent);
+animation: growth ease 1s;
+}
+
+@keyframes growth{
+    from {
+        opacity:0;
+        height: calc(var(--percent)-70%)}
+    to {opacity:1;
+        height: calc(--percent);
+}}
+
+.box4{
+    border: 5px solid black;
+    padding-left: 20vw;
+    height: 90vh;
+    width:98.9vw;
+    display: flex;
+    background:linear-gradient(360deg,rgba(0, 0, 0,0.05),rgb(59, 53, 53)), url(https://static.wixstatic.com/media/5b4ae0_5b2d52267f134968885f723ccab857fe~mv2_d_2000_2000_s_2.jpg/v1/fill/w_1000,h_1000,al_c,q_90,usm_0.66_1.00_0.01/5b4ae0_5b2d52267f134968885f723ccab857fe~mv2_d_2000_2000_s_2.jpg)no-repeat center/cover;
+
+    
+    
+}
+.firt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin: 5px;
+    width: 30vw;
+    border: black solid 5px;
+background:linear-gradient(360deg,rgba(0, 0, 0,0.05),rgb(59, 53, 53)), 
+url(https://cdn.dribbble.com/users/4512217/screenshots/8782112/media/f98006c1c9d91dcb0eb5d0d5de93fbd3.jpg?compress=1&resize=1600x1200&vertical=top)no-repeat center /cover;
+}
+
+.second{
+    
+    width: 30vw;
+display: flex;
+flex-direction: column;
+
+}
+.second-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid  5px;
+    background:linear-gradient(360deg,rgba(0, 0, 0,0.025),rgb(59, 53, 53)), 
+    url(https://a-static.besthdwallpaper.com/foosha-vilage-luffy-hometown-hinh-nen-2736x1824-32016_41.jpg)no-repeat center /cover;
+flex: 1;
+margin:5px;
+}
+.second-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: black solid 5px;
+    background: linear-gradient(360deg,rgba(0, 0, 0,0.05),rgb(59, 53, 53)),
+    url(https://preview.redd.it/5raq9t30i8j11.jpg?width=960&crop=smart&auto=webp&s=eb325b43d3a7cdfa465edc6a9289d89b25d38f0e)no-repeat center/cover;
+flex: 1;
+}
+/* .btn-background{
+    height:100vh;
+    width: 98,7vw;
+}
+.btn{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius:50px;
+    padding: 10px;
+    cursor: pointer ;
+    transition: opacity .2s ease;
+}
+.btn:hover{
+opacity: 0.8;
+}
+.btn + .btn{
+    margin-left: 16px;
+}
+.btn--success{
+    background-color:#65A69A;
+}
+.btn--warn{
+    background-color: #F2B950;
+}
+.btn--danger{
+    background-color: #F25E3D;
+} */
+.toast{
+    width:98,7vw;
+    height: 100vh;
+}
